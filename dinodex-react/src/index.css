@@ -1,0 +1,24 @@
+/* A REGRA @import VEM PRIMEIRO DE TUDO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Lato:wght@400;700&display=swap');
+
+/* DEPOIS, AS DIRETIVAS DO TAILWIND */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FINALMENTE, NOSSOS ESTILOS PERSONALIZADOS */
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/dark-paths.png');
+    background-color: #1a2019; /* Verde quase preto */
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: #2a3429; }
+::-webkit-scrollbar-thumb { background: #8b733e; border-radius: 6px; border: 2px solid #2a3429; }
+::-webkit-scrollbar-thumb:hover { background: #c7a95c; }

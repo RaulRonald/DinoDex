@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Estilos Personalizados para o DinoDEX Selvagem --- */
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+    background-color: #1c251a; 
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #2a3429; }
+::-webkit-scrollbar-thumb { background: #8b5e34; border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: #a16c3f; }  
